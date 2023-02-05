@@ -1,0 +1,127 @@
+.main-container{
+    height: auto;
+   width: 100%;
+ 
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 35%;
+   height: 49px;
+}
+
+.navlinks{
+    width: 77%;
+    height: 100;
+}
+
+.navlinks ul{
+    width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navlinks ul li{
+    width:10%;
+    list-style: none;
+   
+}
+.navlinks ul button{
+    width:10%;
+    
+   
+}
+
+.navlinks ul li a{
+   text-decoration: none;
+   color:#333333;
+   font-family: 'Poppins';
+   font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+.navlinks ul button{
+  background-color: #2C3878 !important;
+  color: wheat ;
+  border:  1px solid #3C3C3C;
+  height: 49px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0px 20px;
+
+ }
+
+ .mid-section {
+    width: 23%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px auto;
+    color:#333333;;
+ }
+
+ .form-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  
+ }
+
+ .form-container .name , .form-container .lable , .form-container label input , .form-container label textarea{
+    width: 100%;  
+ }
+
+ .form-container label{
+    margin: 10px 20px;
+    }
+
+ .form-container label input{
+ height:30px;
+ }
+
+ .form-container label input , .form-container label textarea{
+
+    padding: 5px 10px;
+    }
+
+ .form-container .name {
+    display: flex;
+ }
+
+ .form-container .name label {
+   width: 50%;
+ }
+
+
+ .phone div{
+    display: flex;
+ }
+
+ .phone div select{
+    border-right: none;
+ }
+
+
+
+
